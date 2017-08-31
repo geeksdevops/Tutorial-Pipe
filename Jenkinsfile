@@ -1,6 +1,5 @@
 pipeline {
     agent {
-        label "VirtualBox"
     }
     tools {
         maven 'MAVEN'
