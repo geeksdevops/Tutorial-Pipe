@@ -3,8 +3,8 @@ pipeline {
         label "server"
     }
     tools {
-        maven 'Maven3.1.1'
-        jdk 'java8'
+        maven 'MAVEN'
+        jdk 'JAVA'
     }
     stages {
         stage ('Initialize') {
