@@ -26,10 +26,6 @@ pipeline {
                     junit 'NumberGenerator/target/surefire-reports/*.xml'
                         }
                  }
-               
-
-           
             }
         }
-    
 }
