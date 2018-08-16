@@ -8,7 +8,6 @@ node {
         GIT_CREDENTIALS         = 'Git-Credentials'
 	MAVEN_HOME		= '/app/apache-maven/'
         MAVEN_GOAL		= 'clean install'
-	MVN_SKIP_GOAL		= 'clean install DskipTests=true'
 	SONAR_PROPERTY		= 'sonar-project.properties'
         RECIPIENT               = 'pramod.s.02@gmail.com'
         EMAIL_TEMPLATE          = 'email_template'
